@@ -37,26 +37,44 @@ body{
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev {
   cursor: pointer;
   position: absolute;
   top: 50%;
+  left: 0;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
+  padding: 1px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 12px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0px 3px 3px 0px;
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: auto;
+  margin-top: -22px;
+  padding: 1px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.6s ease;
+  border-radius: 3px 0 0 3px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right 
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+*/
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -125,13 +143,13 @@ a{
 
 .section-1 p{
     font-size: 1.1rem;
-    padding-bottom: 3px;
+    padding-bottom: 8px;
     margin:0;
 }
 
 .section-1 h2{
     font-size: 1.7rem;
-    margin-bottom: 4px;
+    margin-bottom: 0px;
 }
 
 .section-1 a{
