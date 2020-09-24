@@ -55,7 +55,7 @@ body{
 
 .next {
   cursor: pointer;
-  position: absolute;
+  position: absolute; /*change to reltive to move to bottom*/
   top: 50%;
   right: 0;
   width: auto;
