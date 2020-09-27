@@ -136,7 +136,7 @@ a{
 }
 /* section 1 */
 .section-1{
-    padding-top: 5vh;
+    padding-top: 0vh;
     padding-left: 20vw;
     text-align: center;
 }
@@ -175,7 +175,7 @@ a{
 }
 
 .section-2 a{
-    display: block;
+    /*display: block;*/
     padding: 0px;
     font-size: 1.1rem;
     padding-left: 0;
